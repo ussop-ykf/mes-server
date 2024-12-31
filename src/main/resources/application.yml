@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: mes-server
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/rw-mes?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
+    username: root
+    password: 2754216911
+server:
+  port: 8080
+
+#mybatis:
+#  mapper-locations: mapper/*.xml
